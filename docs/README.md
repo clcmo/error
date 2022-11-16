@@ -1,4 +1,4 @@
-# Donation Page
+# Error Page
 
 [![GitHub license](https://img.shields.io/github/license/clcmo/error?style=for-the-badge)](https://github.com/clcmo/error)
 [![GitHub stars](https://img.shields.io/github/stars/clcmo/error?style=for-the-badge)](https://github.com/clcmo/error/stargazers)
