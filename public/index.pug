@@ -1,0 +1,34 @@
+html(style='--hue: 271; --hue-complimentary1: 301; --hue-complimentary2: 331;' lang='en')
+head
+  meta(charset='utf-8')
+  title Camila L. Oliveira - Doe
+  link(rel='preconnect' href='https://fonts.gstatic.com')
+  link(href='https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap' rel='stylesheet')
+  meta(name='viewport' content='width=device-width, initial-scale=1')
+  // Load external CSS styles
+  link(rel='stylesheet' href='assets/styles.css')
+// Canvas
+canvas.orb-canvas
+// Overlay
+.overlay
+  // Overlay inner wrapper
+  .overlay__inner
+    // Title
+    h1.overlay__title
+      | Hey, we can't found the 
+      |
+      span.text-gradient link
+      | .
+    // Description
+    p.overlay__description
+      | But you should access the Milla's site
+      strong We hope you found there.
+    // Buttons
+    .overlay__btns
+      button.overlay__btn.overlay__btn--transparent
+        a(href='https://camilaloliveira.com.br' target='_blank')
+          | Enter on Milla's site
+      button.overlay__btn.overlay__btn--colors
+        span Randomise Colors
+        span.overlay__btn-emoji &#x1F3A8;
+script( id="rendered-js" type="module" src='assets/scripts.js')
